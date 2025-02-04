@@ -108,7 +108,7 @@ msgstr ""
 
 #: src/end-session-dialog.c:163
 msgid "Log Out"
-msgstr ""
+msgstr "登出"
 
 #: src/end-session-dialog.c:166
 #, c-format
@@ -187,11 +187,11 @@ msgstr "正在检查…"
 
 #: src/screenshot-manager.c:213
 msgid "Screenshot"
-msgstr ""
+msgstr "截屏"
 
 #: src/screenshot-manager.c:214
 msgid "Screenshot copied to clipboard"
-msgstr ""
+msgstr "截屏已复制到剪切板"
 
 #. Translators: Used when the title of a song is unknown
 #: src/media-player.c:321 src/ui/media-player.ui:161
@@ -239,7 +239,7 @@ msgstr "输入 wifi 网络“%s”的密码"
 
 #: src/notifications/mount-notification.c:121
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #: src/notifications/notification.c:383 src/notifications/notification.c:654
 msgid "Notification"
@@ -430,15 +430,15 @@ msgstr "搜索应用程序…"
 
 #: src/ui/audio-settings.ui:84
 msgid "Output Devices"
-msgstr ""
+msgstr "输出设备"
 
 #: src/ui/audio-settings.ui:107
 msgid "Input Devices"
-msgstr ""
+msgstr "输入设备"
 
 #: src/ui/audio-settings.ui:134
 msgid "Sound Settings"
-msgstr ""
+msgstr "声音设置"
 
 #: src/ui/emergency-menu.ui:26
 msgid "Close the emergency call dialog"
@@ -483,7 +483,7 @@ msgstr "用户："
 
 #: src/ui/gtk-mount-prompt.ui:117
 msgid "Domain:"
-msgstr ""
+msgstr "域名："
 
 #: src/ui/gtk-mount-prompt.ui:150
 msgid "Co_nnect"
@@ -491,7 +491,7 @@ msgstr "连接(_N)"
 
 #: src/ui/lockscreen.ui:36 src/ui/lockscreen.ui:334
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: src/ui/lockscreen.ui:97
 msgid "Slide up to unlock"
@@ -592,7 +592,7 @@ msgstr ""
 
 #: src/widget-box.c:54
 msgid "Plugin not found"
-msgstr ""
+msgstr "未找到插件"
 
 #: src/widget-box.c:57
 #, c-format
@@ -611,7 +611,7 @@ msgstr "蜂窝网络"
 #: plugins/emergency-info/emergency-info.ui:39
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:70
 msgid "Personal Information"
-msgstr ""
+msgstr "个人信息"
 
 #: plugins/emergency-info/emergency-info.ui:47
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:88
