@@ -41,24 +41,24 @@ msgstr "日历"
 
 #: plugins/calendar/calendar.desktop.in.in:6
 msgid "A simple calendar widget"
-msgstr ""
+msgstr "简单日历组件"
 
 #: plugins/ticket-box/ticket-box.desktop.in.in:4
 #: plugins/ticket-box/ticket-box.ui:14
 msgid "Ticket Box"
-msgstr ""
+msgstr "票夹"
 
 #: plugins/ticket-box/ticket-box.desktop.in.in:5
 msgid "Show PDFs on the lock screen. <b>This plugin is experimental.</b>"
-msgstr ""
+msgstr "在锁屏上显示 PDF。<b>该插件为实验性内容。</b>"
 
 #: plugins/upcoming-events/upcoming-events.desktop.in.in:4
 msgid "Upcoming Events"
-msgstr ""
+msgstr "近期活动"
 
 #: plugins/upcoming-events/upcoming-events.desktop.in.in:5
 msgid "Show upcoming calendar events"
-msgstr ""
+msgstr "显示近期日历活动"
 
 #: src/app-grid-button.c:529
 msgid "Application"
@@ -70,7 +70,7 @@ msgstr "显示全部应用"
 
 #: src/app-grid.c:140
 msgid "Show Only Mobile Friendly Apps"
-msgstr ""
+msgstr "只显示移动程序"
 
 #: src/bt-info.c:92
 msgctxt "bluetooth:enabled"
@@ -163,7 +163,7 @@ msgstr "开启"
 #: src/location-manager.c:268
 #, c-format
 msgid "Allow '%s' to access your location information?"
-msgstr ""
+msgstr "允许 '%s' 访问您的位置？"
 
 #: src/location-manager.c:273
 msgid "Geolocation"
@@ -322,14 +322,14 @@ msgstr "未知"
 #, fuzzy, c-format
 #| msgid "Over"
 msgid "Over %dy"
-msgstr "超过"
+msgstr "超过 %dy"
 
 #. Translators: time difference "almost 5 years"
 #: src/notifications/timestamp-label.c:193
 #, fuzzy, c-format
 #| msgid "Almost"
 msgid "Almost %dy"
-msgstr "将近"
+msgstr "将近 %dy"
 
 #. Translators: a time difference like '<5m', if in doubt leave untranslated
 #: src/notifications/timestamp-label.c:200
@@ -362,7 +362,7 @@ msgstr "横向"
 #: src/rotateinfo.c:125 src/rotateinfo.c:230
 msgctxt "automatic-screen-rotation-disabled"
 msgid "Off"
-msgstr ""
+msgstr "关闭"
 
 #: src/rotateinfo.c:126
 #, fuzzy
@@ -373,16 +373,16 @@ msgstr "开启"
 
 #: src/run-command-dialog.c:129
 msgid "Press ESC to close"
-msgstr ""
+msgstr "按 ESC 关闭"
 
 #: src/run-command-manager.c:89
 #, c-format
 msgid "Running '%s' failed"
-msgstr ""
+msgstr "'%s" 运行失败"
 
 #: src/settings/audio-settings.c:373
 msgid "Phone Shell Volume Control"
-msgstr ""
+msgstr "手机 Shell 音量控制"
 
 #: src/system-prompt.c:365
 msgid "Passwords do not match."
@@ -398,7 +398,7 @@ msgstr ""
 
 #: src/ui/app-auth-prompt.ui:49
 msgid "Remember decision"
-msgstr ""
+msgstr "记住设定"
 
 #: src/ui/app-auth-prompt.ui:62 src/ui/end-session-dialog.ui:62
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:29
@@ -422,7 +422,7 @@ msgstr "添加到收藏夹(_F)"
 
 #: src/ui/app-grid-button.ui:89
 msgid "View _Details"
-msgstr ""
+msgstr "详情(_D)"
 
 #: src/ui/app-grid.ui:21
 msgid "Search apps…"
@@ -442,7 +442,7 @@ msgstr "声音设置"
 
 #: src/ui/emergency-menu.ui:26
 msgid "Close the emergency call dialog"
-msgstr ""
+msgstr "关闭紧急呼叫对话框"
 
 #: src/ui/emergency-menu.ui:52
 msgid "Emergency _Contacts"
@@ -450,11 +450,11 @@ msgstr "紧急联系人(_C)"
 
 #: src/ui/emergency-menu.ui:59
 msgid "Go to the emergency contacts page"
-msgstr ""
+msgstr "跳转到紧急联系人页面"
 
 #: src/ui/emergency-menu.ui:83
 msgid "Go back to the emergency dialpad page"
-msgstr ""
+msgstr "返回紧急拨号盘页面"
 
 #: src/ui/emergency-menu.ui:106
 #, fuzzy
@@ -471,11 +471,11 @@ msgstr "紧急呼叫"
 
 #: src/ui/emergency-menu.ui:142
 msgid "No emergency contacts available."
-msgstr ""
+msgstr "无紧急联系人可用。"
 
 #: src/ui/end-session-dialog.ui:31
 msgid "Some applications are busy or have unsaved work"
-msgstr ""
+msgstr "某些应用程序繁忙或有未保存的工作"
 
 #: src/ui/gtk-mount-prompt.ui:94
 msgid "User:"
@@ -524,25 +524,25 @@ msgstr "认证"
 #, fuzzy
 #| msgid "Power Off"
 msgid "_Power Off"
-msgstr "关机"
+msgstr "关机(_P)"
 
 #: src/ui/power-menu.ui:110
 msgid "_Lock"
-msgstr ""
+msgstr "锁定(_L)"
 
 #: src/ui/power-menu.ui:151
 msgid "_Screenshot"
-msgstr ""
+msgstr "截屏(_S)"
 
 #: src/ui/power-menu.ui:192
 #, fuzzy
 #| msgid "Emergency"
 msgid "_Emergency"
-msgstr "紧急呼叫"
+msgstr "紧急呼叫(_E)"
 
 #: src/ui/run-command-dialog.ui:6
 msgid "Run Command"
-msgstr ""
+msgstr "运行命令"
 
 #: src/ui/settings.ui:296
 #, fuzzy
@@ -552,7 +552,7 @@ msgstr "通知"
 
 #: src/ui/settings.ui:336
 msgid "Clear all"
-msgstr ""
+msgstr "全部清除"
 
 #: src/ui/system-prompt.ui:62
 msgid "Confirm:"
@@ -562,21 +562,21 @@ msgstr "确认："
 #, fuzzy
 #| msgid "Power Off"
 msgid "_Power Off…"
-msgstr "关机"
+msgstr "关机…(_P)"
 
 #: src/ui/top-panel.ui:60
 #, fuzzy
 #| msgid "Restart"
 msgid "_Restart…"
-msgstr "重启"
+msgstr "重启…(_R)"
 
 #: src/ui/top-panel.ui:88
 msgid "_Suspend…"
-msgstr ""
+msgstr "暂停(_S)"
 
 #: src/ui/top-panel.ui:116
 msgid "_Log Out…"
-msgstr ""
+msgstr "登出(_L)"
 
 #. Translators: This is a time format for a date in
 #. long format
@@ -597,7 +597,7 @@ msgstr "未找到插件"
 #: src/widget-box.c:57
 #, c-format
 msgid "The plugin '%s' could not be loaded."
-msgstr ""
+msgstr "插件 '%s' 未找到。"
 
 #: src/wifiinfo.c:90
 msgid "Wi-Fi"
@@ -616,17 +616,17 @@ msgstr "个人信息"
 #: plugins/emergency-info/emergency-info.ui:47
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:88
 msgid "Date of Birth"
-msgstr ""
+msgstr "出生日期"
 
 #: plugins/emergency-info/emergency-info.ui:65
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:100
 msgid "Preferred Language"
-msgstr ""
+msgstr "首选语言"
 
 #: plugins/emergency-info/emergency-info.ui:83
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:112
 msgid "Home Address"
-msgstr ""
+msgstr "家庭住址"
 
 #: plugins/emergency-info/emergency-info.ui:91
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:129
@@ -665,20 +665,20 @@ msgstr ""
 #: plugins/emergency-info/emergency-info.ui:187
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:213
 msgid "Other Information"
-msgstr ""
+msgstr "其他信息"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:6
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:19
 msgid "Emergency Info Preferences"
-msgstr ""
+msgstr "紧急信息首选项"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:40
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:76
 msgid "Owner Name"
-msgstr ""
+msgstr "机主"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:198
 msgid "Medications and Conditions"
@@ -686,81 +686,81 @@ msgstr ""
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:239
 msgid "Add Contact"
-msgstr ""
+msgstr "添加联系人"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:284
 msgid "Add New Contact"
-msgstr ""
+msgstr "新建联系人"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:294
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:315
 msgid "New Contact Name"
-msgstr ""
+msgstr "新联系人名称"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:329
 msgid "Relationship"
-msgstr ""
+msgstr "关系"
 
 #: plugins/emergency-info/prefs/emergency-info-prefs.ui:342
 msgid "Number"
-msgstr ""
+msgstr "数字"
 
 #: plugins/ticket-box/ticket-box.ui:15
 msgid "No documents to display"
-msgstr ""
+msgstr "无文档显示"
 
 #: plugins/ticket-box/ticket-box.ui:83
 msgid "Tickets"
-msgstr ""
+msgstr "票据"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.c:86
 msgid "Choose Folder"
-msgstr ""
+msgstr "选择文件夹"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.c:89
 msgid "_Open"
-msgstr ""
+msgstr "打开(_O)"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.ui:6
 msgid "Ticket Box Preferences"
-msgstr ""
+msgstr "票夹偏好"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.ui:13
 msgid "Paths"
-msgstr ""
+msgstr "路径"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.ui:18
 msgid "Folder Settings"
-msgstr ""
+msgstr "文件夹设置"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.ui:19
 msgid "Where Phosh looks for your tickets"
-msgstr ""
+msgstr "Phosh 在何处查找您的票据"
 
 #: plugins/ticket-box/prefs/ticket-box-prefs.ui:22
 msgid "Ticket Folder"
-msgstr ""
+msgstr "票夹"
 
 #: plugins/upcoming-events/event-list.c:142
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 #: plugins/upcoming-events/event-list.c:144
 msgid "Tomorrow"
-msgstr ""
+msgstr "明天"
 
 #: plugins/upcoming-events/event-list.c:150
 #, c-format
 msgid "In %d day"
 msgid_plural "In %d days"
-msgstr[0] ""
+msgstr[0] "在 %d 天内"
 
 #: plugins/upcoming-events/event-list.ui:26
 msgid "No events"
-msgstr ""
+msgstr "无事件"
 
 #. Translators: This is the time format used in 24-hour mode.
 #: plugins/upcoming-events/upcoming-event.c:56
@@ -776,16 +776,16 @@ msgstr ""
 #: plugins/upcoming-events/upcoming-event.c:122
 #: plugins/upcoming-events/upcoming-event.c:159
 msgid "All day"
-msgstr ""
+msgstr "全天"
 
 #. Translators: When the event ends: Ends\r16:00
 #: plugins/upcoming-events/upcoming-event.c:148
 msgid "Ends"
-msgstr ""
+msgstr "结束"
 
 #: plugins/upcoming-events/upcoming-event.c:398
 msgid "Untitled event"
-msgstr ""
+msgstr "未命名事件"
 
 #~ msgid "%d.%m.%y"
 #~ msgstr "%y.%m.%d"
