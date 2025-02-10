@@ -1,14 +1,16 @@
 project('phosh', 'c',
-          version: '0.45.beta1',
+          version: '0.45.rc1',
           license: 'GPL-3.0-or-later',
     meson_version: '>= 1.0.0',
   default_options: [ 'warning_level=1', 'buildtype=debugoptimized', 'c_std=gnu11' ],
 )
 
+# libphosh's version is stable. It should only be bumped for API changes
+libphosh_api_version = '0.45'
+
 app_id = 'mobi.phosh.Shell'
 ver_parts = meson.project_version().split('.')
-libversion = '@0@.@1@'.format(ver_parts[0], ver_parts[1])
-lib_inc_subdir = 'libphosh-@0@'.format(libversion)
+lib_inc_subdir = 'libphosh-@0@'.format(libphosh_api_version)
 
 prefix = get_option('prefix')
 bindir = join_paths(prefix, get_option('bindir'))
